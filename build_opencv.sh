@@ -112,7 +112,12 @@ configure () {
         -D CUDA_ARCH_PTX=
         -D CUDA_FAST_MATH=ON
         -D CUDNN_VERSION='8.0'
-        -D EIGEN_INCLUDE_PATH=/usr/include/eigen3 
+        -D PYTHON3_EXECUTABLE=~/miniforge3/envs/imswitch/bin/python
+        -D PYTHON_DEFAULT_EXECUTABLE=~/miniforge3/envs/imswitch/bin/python3.7
+        -D PYTHON3_LIBRARY=~/miniforge3/envs/imswitch/lib/python3.7m.dylib
+        -D PYTHON3_INCLUDE_DIR=~/miniforge3/envs/imswitch/include/python3.7m
+        -D PYTHON3_PACKAGES_PATH=~/miniforge3/envs/imswitch/lib/python3.7/site-packages
+        -D EIGEN_INCLUDE_PATH=/usr/include/eigen3
         -D ENABLE_NEON=ON
         -D OPENCV_DNN_CUDA=ON
         -D OPENCV_ENABLE_NONFREE=ON
